@@ -11,7 +11,6 @@ public class Main {
         WriteThread t1 = new WriteThread(counter, lock);
         WriteThread t2 = new WriteThread(counter, lock);
         WriteThread t3 = new WriteThread(counter, lock);
-
         t1.start();
         t2.start();
         t3.start();
